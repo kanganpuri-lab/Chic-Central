@@ -1,0 +1,103 @@
+body{
+    background-image: url(https://giffiles.alphacoders.com/276/2766.gif);
+    color: whitesmoke;
+}
+#sale{
+    background-color: rgba(0,0,0,0.7); padding: 70px;
+    margin-top:190px;
+}
+header{
+    background-color: #769fd5;
+    text-align: center;
+    padding:20px;
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    margin:auto;
+}
+nav{
+    background-color:#2a5389;
+    padding:10px
+}
+a{
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: larger;
+}
+.flex-container{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-evenly;
+    align-content:center;
+}
+.flex-item{
+    width:20%;
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+   font-size: 18px;
+  cursor: pointer;
+
+  /* Smooth animation */
+  transition: 
+    transform 0.4s ease,
+    width 0.4s ease,
+    box-shadow 0.4s ease;
+}
+img{
+    width:100%;
+    object-fit: cover;
+    padding: 10px;
+}
+footer{
+    background-color:#879cf0 ;
+    color: black;
+    text-align: center;
+        padding:20px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    margin:auto;
+    margin-top: 200px;
+}
+button{
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+
+.flex-item:hover {
+  width: 240px;                     
+  transform: translateY(-10px);     
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+} 
+h1{
+    text-align: center;
+}
+
+#header{
+    margin-top:120px
+}
+.contactus{
+    margin-top:200px;
+   text-align: center; 
+   background-color:white;
+   color: #2a5389;
+   width: 500px;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 0 12px #2a5389;
+}
+input{
+    width:100%;
+    height: 25px;
+}
+textarea{
+    width: 100%;
+}
